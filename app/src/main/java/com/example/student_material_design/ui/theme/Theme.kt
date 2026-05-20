@@ -92,15 +92,11 @@ fun Student_Material_DesignTheme(
         darkTheme -> DarkColors
         else -> LightColors
     }
-    val view = LocalView.current
-    if (!view.isInEditMode) {
-        SideEffect {
-            setUpEdgeToEdge(view, darkTheme)
-        }
-    }
+
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
+        shapes = Shapes,
         content = content
     )
 }

@@ -29,6 +29,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.student_material_design.data.DataSource
 import com.example.student_material_design.data.Student
 import com.example.student_material_design.ui.theme.Student_Material_DesignTheme
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,6 +60,8 @@ fun StudentIcon(
         modifier = modifier
             .size(dimensionResource(R.dimen.image_size))
             .padding(dimensionResource(R.dimen.padding_small))
+            .clip(MaterialTheme.shapes.small),
+        contentScale = ContentScale.Crop
     )
 }
 
