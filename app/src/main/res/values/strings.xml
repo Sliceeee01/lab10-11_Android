@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Student List</string>
 
-    <!-- Имена студентов -->
+
     <string name="student1">Иван Петров</string>
     <string name="student2">Мария Смирнова</string>
     <string name="student3">Алексей Иванов</string>
@@ -13,7 +13,7 @@
     <string name="student9">Сергей Лебедев</string>
     <string name="student10">Татьяна Егорова</string>
 
-    <!-- Описания студентов -->
+
     <string name="student1_desc">Специализация: поиск зарядки от ноутбука. Последний раз видели в библиотеке — спал на клавиатуре, набрав 47 букв "ы" в курсовой.</string>
     <string name="student2_desc">Мастер многозадачности: одновременно пишет диплом, заказывает шаурму и отвечает маме "да, я уже поела".</string>
     <string name="student3_desc">Верит, что экзамен можно сдать силой взгляда. Носит с собой ручку "на удачу" — она же из начальной школы.</string>
@@ -24,7 +24,8 @@
     <string name="student8_desc">Ведёт 7 тетрадей разных цветов. На экзамене путает их местами и получает пятёрку по химии вместо истории.</string>
     <string name="student9_desc">Специалист по "я болел". Пропустил 12 пар, но на зачёте знает больше всех — смотрел лекции на 2х скорости в метро.</string>
     <string name="student10_desc">Может объяснить теорию относительности, но не может объяснить, почему в холодильнике до сих пор лежит йогурт с прошлого семестра.</string>
+    <string name="expand_button_content_description">Развернуть или свернуть</string>
+    <string name="about">О студенте</string>
 
-    <!-- Возраст (с плейсхолдером) -->
     <string name="years_old">%d лет</string>
 </resources>
